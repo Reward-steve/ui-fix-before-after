@@ -70,8 +70,8 @@ Clients often come with broken layouts — this repo proves I can:
 
 ## 📬 Contact Me
 
-- - Email: rewardstephen30@gmail.com
-- - GitHub: Reward-steve
-- - Portfolio: my-portfolio-website-chi-kohl.vercel.app
+- Email: rewardstephen30@gmail.com
+- GitHub: Reward-steve
+- Portfolio: https://my-portfolio-website-chi-kohl.vercel.app
 
 **⭐ If this helped or inspired you, feel free to star the repo.**
