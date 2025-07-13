@@ -1,52 +1,72 @@
 # 🛠️ UI Fix – Before & After (React + Tailwind CSS)
 
-This project showcases a **real-world UI rescue scenario** — from broken, unresponsive layout to a clean, responsive, and professional UI.
+This project demonstrates a **real-world UI transformation** — converting a broken, hard-coded layout into a responsive, accessible, and modern user interface using React + Tailwind CSS.
 
 ---
 
 ## 📸 Visual Comparison
 
-| ❌ Before                          | ✅ After                         |
-| ---------------------------------- | -------------------------------- |
-| ![Before](./before/screenshot.png) | ![After](./after/screenshot.png) |
+### 🖥 Desktop View
+
+| ❌ Before                               | ✅ After                              |
+| --------------------------------------- | ------------------------------------- |
+| ![Before Desktop](./before/desktop.png) | ![After Desktop](./after/desktop.png) |
+
+### 📱 Mobile View
+
+| ❌ Before                             | ✅ After                            |
+| ------------------------------------- | ----------------------------------- |
+| ![Before Mobile](./before/mobile.png) | ![After Mobile](./after/mobile.png) |
 
 ---
 
-## 🔍 The Problem
+## 🔍 Live UI Fix Demo
+
+| ❌ Broken                                                                                    | ✅ Fixed                                                                                   |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [View Broken Layout](https://ui-fix-before-after-reward-stephens-projects.vercel.app/before) | [View Fixed Layout](https://ui-fix-before-after-reward-stephens-projects.vercel.app/after) |
+
+Or visit the [Landing Page](https://ui-fix-before-after-reward-stephens-projects.vercel.app) to toggle between both versions.
+
+---
+
+## 💥 The Problem (Before)
 
 In the **Before** version:
 
-- Layout was hard-coded and broke on mobile
-- Inline styles made scaling and readability difficult
-- Spacing was inconsistent
-- Buttons were visually weak and inaccessible
-- Overall visual experience was poor
+- Fixed-width layout broke on small screens
+- Hardcoded inline styles made components rigid and messy
+- No spacing system, poor readability, and weak contrast
+- Buttons lacked interaction and accessibility
+- Overall design felt outdated and inconsistent
 
-See full [issue description](./before/description.md)
+📄 [View full issue description](./before/description.md)
 
 ---
 
-## ✅ The Fix
+## ✅ The Fix (After)
 
 In the **After** version:
 
-- Tailwind CSS used for clean, consistent spacing
-- Responsive grid system for flexible layouts
-- Semantic button styles with accessible contrast
-- Fully mobile-first and componentized
-- Improved readability and code maintainability
+- Used Tailwind utility classes for clean, scalable styles
+- Implemented a responsive grid layout with mobile-first design
+- Improved spacing, padding, and visual hierarchy
+- Styled buttons for accessibility, interaction, and clarity
+- Added hover states and transitions for better user feedback
 
-Read all changes [here](./after/what-was-fixed.md)
+🔧 [What Was Fixed (details)](./after/what-was-fixed.md)
 
 ---
 
 ## 🧱 Tech Stack
 
-- **Framework**: React
-- **Styling**: Tailwind CSS
-- **Language**: TypeScript
-- **Tooling**: Vite
-- **Deployment**: Vercel
+| Tool             | Purpose                       |
+| ---------------- | ----------------------------- |
+| **React**        | UI Framework                  |
+| **Tailwind CSS** | Utility-first styling         |
+| **TypeScript**   | Type safety + maintainability |
+| **Vite**         | Lightning-fast dev server     |
+| **Vercel**       | Deployment platform           |
 
 ---
 
@@ -56,22 +76,23 @@ Read all changes [here](./after/what-was-fixed.md)
 git clone https://github.com/Reward-steve/ui-fix-before-after.git
 cd ui-fix-before-after
 npm install
-npm run dev  # or npm start
+npm run dev
 ```
 
 ## 🎯 Why This Matters
 
-Clients often come with broken layouts — this repo proves I can:
+Clients often come to you with broken layouts — this project proves you can:
 
-- Spot UI/UX flaws quickly
-- Fix layout bugs with clean, scalable code
-- Deliver responsive, mobile-ready components fast
-- Use this in proposals to show your UI repair skills in action.
+- Identify and diagnose UI/UX flaws quickly
+- Refactor hard-coded components into reusable, scalable systems
+- Deliver responsive, mobile-optimized UIs
+- Improve performance, usability, and developer experience
 
 ## 📬 Contact Me
 
-- Email: rewardstephen30@gmail.com
-- GitHub: Reward-steve
-- Portfolio: https://my-portfolio-website-chi-kohl.vercel.app
+- 📧 Email: rewardstephen30@gmail.com
+- 🌐 Portfolio: [my-portfolio-website](https://my-portfolio-website-chi-kohl.vercel.app/)
+- 💻 GitHub: [Reward-steve](https://github.com/Reward-steve)
 
-**⭐ If this helped or inspired you, feel free to star the repo.**
+**⭐ Found this helpful or inspiring?**
+**Give the repo a ⭐ and share your thoughts!**

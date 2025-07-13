@@ -1,7 +1,9 @@
 export default function Before() {
   return (
     <div className="p-6 bg-white">
-      <h1 className="text-2xl font-bold mb-4 text-center">Bad Card Layout</h1>
+      <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-10">
+        Broken Card Layout
+      </h1>
       <div className="flex flex-wrap gap-5">
         {[1, 2, 3, 4].map((card) => (
           <div
